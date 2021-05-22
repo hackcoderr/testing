@@ -29,11 +29,11 @@ sudo yum install jenkins -y
 ```
 6. Strat jenkins services
 ```
-systemctl start jenkins
+sudo systemctl start jenkins
 ```
 7. Check jnekins status
 ```
-systemctl status jenkins
+sudo systemctl status jenkins
 ```
 8. Access Jenkins server using the public ip of your ec2 on default port no. 8080
 ```
