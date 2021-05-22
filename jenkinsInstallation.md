@@ -16,6 +16,7 @@ sudo  yum update -y
 3. Download latest Jenkins code package.
 
 ```
+sudo yum install wget -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
 ```
 4. Import a key file from Jenkins-CI to enable installation from the package.
